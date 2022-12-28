@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chop Chop</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap-icons/bootstrap-icons.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div> -->
+    <!-- Spinner End -->
+
+    <!-- Top Navbar -->
+    <div class="container-fluid top-navbar py-2 px-4">
+        <div class="row">
+            <div class="col-4">
+                <a href="register-restaurant.html"><i class="bi bi-emoji-wink"></i> Register your restaurant with chop chop</a>
+            </div>
+            <div class="col-6">
+            </div>
+            <div class="col-2">
+                <div class="nav-item dropdown top-navbar-restaurant">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Restaurants</a>
+                    <div class="dropdown-menu tnbr-dropdown shadow-sm m-0">
+                        <a href="restaurant.html" class="dropdown-item aa"><img src="img/logos/awesome-logo.png"> Awesome</a>
+                        <a href="#" class="dropdown-item aa"><img src="img/logos/simple-logo.png"> Simple</a>
+                        <a href="#" class="dropdown-item aa"><img src="img/logos/frostbite-logo.png"> Frostbite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Navbar ends -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-3 px-lg-4">
+        <div>
+           <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">
+                    <img class="img-fluid me-2" src="" alt="" style="width: 45px;"> Chop Chop
+                </h2>
+            </a> 
+        </div>
+        
+        <div class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="search" name="search" placeholder="Search for foods, snacks and drinks">
+        </div>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Help</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="#" class="dropdown-item">Returns & Order</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="#" class="dropdown-item"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link">
+                    <i class="bi bi-person"></i>
+                </a>
+                <a href="#" class="nav-item nav-link navbar-cart">
+                    <i class="bi bi-cart3"></i>
+                    <small class="cart-count">12</small>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Bottom Navbar -->
+    <div class="bottom-navbar px-2 py-2">
+        <ul>
+            <li>
+                <a href="#">All</a>
+            </li>
+            <li>
+                <a href="#">Foods</a>
+            </li>
+            <li>
+                <a href="#">Snacks</a>
+            </li>
+            <li>
+                <a href="#">Drinks</a>
+            </li>
+            <li>
+                <a href="#">Combos</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Bottom Navbar End -->
+
+    <!-- Hero Start -->
+    <div id="hero" class="container-fluid hero-header py-5 mb-5">
+        <div class="container hero-text-box py-5">
+            <h3 class="animated slideInDown">WHAT CAN WE GET YOU?</h3>
+            <h3 class="display-5 mb-3 animated slideInDown">DELIGHT IN EVERY BITE.</h3>
+            <a href="" class="btn btn-primary py-2 px-4 animated slideInDown">Get Started</a>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- How it works -->
+    <section class="container how-it-works my-5">
+        <h2 class="text-center mb-3">How It Works</h2>
+        <div class="row">
+            <div class="col-4 text-center">
+                <img src="img/choose-product.png">
+                <h5>Choose a Product</h5>
+                <p>Select from our wide variety of dishes from different vendors</p>
+            </div>
+
+            <div class="col-4 text-center">
+                <img src="img/place-order.png">
+                <h5>Place Order</h5>
+                <p>Add the selected dish to cart and proceed to checkout</p>
+            </div>
+            
+            <div class="col-4 text-center">
+                <img src="img/delivery.png">
+                <h5>Delivery Location</h5>
+                <p>Your order will be delivered to you as soon as possible</p>
+            </div>
+        </div>
+    </section>
+    <!-- How it works End -->
+
+    <!-- Popular Food -->
+    <section class="container-fluid section-bg popular-food mb-5">
+        <div class="container py-5">
+            <h3 class="mb-3">Popular Categories</h3>
+            <div class="row">
+                <div class="col-3 pf">
+                    <a href="#">
+                        <img src="img/category/english.jfif">
+                        <p class="text-center mt-3">English Food</p>
+                    </a>
+                </div>
+                <div class="col-3 pf">
+                    <a href="#">
+                        <img src="img/category/african.jfif">
+                        <p class="text-center mt-3">African Food</p>
+                    </a>
+                </div>
+                <div class="col-3 pf">
+                    <a href="#">
+                        <img src="img/category/snacks.jfif">
+                        <p class="text-center mt-3">Snacks</p>
+                    </a>
+                </div>
+                <div class="col-3 pf">
+                    <a href="#">
+                        <img src="img/category/drinks.jfif">
+                        <p class="text-center mt-3">Drinks</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular Food End -->
+
+    <!-- Daily Order -->
+    <section class="container-fluid daily-order py-5">
+
+        <div class="container">
+            <h3 class="mb-3">Suggested for you</h3>
+
+            <div class="row daily-order-items">
+                <div class="col-2">
+                    <img src="img/foods/jollof-rice and chicken.jfif">
+                    <div class="price-details my-2">
+                        <p class="item-name">Jollof rice with chicken</p>
+                        <p class="price">N 1,500</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="img/foods/jollof-rice with salad.jfif">
+                    <div class="price-details my-2">
+                        <p class="item-name">Jollof rice with salad</p>
+                        <p class="price">N 1,000</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="img/foods/fried-rice chicken.jfif">
+                    <div class="price-details my-2">
+                        <p class="item-name">Fried rice with chicken and plantain</p>
+                        <p class="price">N 1,500</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="img/foods/eba and egusi.jfif">
+                    <div class="price-details my-2">
+                        <p class="item-name">Eba and egusi with ponmo</p>
+                        <p class="price">N 1,500</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="img/foods/rice and stew.jfif">
+                    <div class="price-details my-2">
+                        <p class="item-name">Rice and stew with plantain</p>
+                        <p class="price">N 1,500</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="img/foods/rice and chicken.jfif">
+                    <div class="price-details my-2">
+                        <p class="item-name">Jollof rice and plantain</p>
+                        <p class="price">N 1,500</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Daily Order End-->
+
+    <!-- Advertisement -->
+    <section class="ads">
+        <img src="img/ads-1.jfif">
+    </section>
+    <!-- Advertisement End -->
+
+    <!-- Awesome Restaurant -->
+    <section class="container-fluid restaurants py-5">
+
+        <div class="container">
+            <div class="row sub-header align-items-center mb-3">
+                <h3 class="col-10"><img src="img/logos/awesome-logo.png" class="restaurant-logo"> Awesome Restaurant</h3>
+                <span class="col-2 see-more"><a href="restaurant.html">See more <i class="bi bi-arrow-bar-right"></i></a></span>
+            </div>
+            
+
+            <div class="meal-wrapper">
+                <div class="meals">
+                    <a href="product-item.html">
+                        <img src="img/foods/jollof-rice and chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice and chicken</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/jollof-rice with salad.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice with salad</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/fried-rice chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Fried rice with chicken and plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/eba and egusi.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Eba and egusi with ponmo</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/rice and stew.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Rice and stew with plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/rice and chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice and plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <hr>
+    <!-- Awesome Restaurant Meal End-->
+
+    <!-- Simple Restaurant -->
+    <section class="container-fluid restaurants py-5">
+
+        <div class="container">
+            <div class="row sub-header align-items-center mb-3">
+                <h3 class="col-10"><img src="img/logos/simple-logo.png" class="restaurant-logo"> Simple Restaurant</h3>
+                <span class="col-2 see-more"><a href="restaurant.html">See more <i class="bi bi-arrow-bar-right"></i></a></span>
+            </div>
+
+            <div class="meal-wrapper">
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/drinks/hollandia drink.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Hollandia Yoghurt</p>
+                            <div class="price-box">
+                                <p class="price">N 900</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/jollof-rice with salad.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice with salad</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/fried-rice chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Fried rice with chicken and plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/eba and egusi.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Eba and egusi with ponmo</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/rice and stew.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Rice and stew with plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/rice and chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice and plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <hr>
+    <!-- Simple Restaurant Meal End-->
+
+    <!-- Frostbite Restaurant -->
+    <section class="container-fluid restaurants py-5">
+
+        <div class="container">
+            <div class="row sub-header align-items-center mb-3">
+                <h3 class="col-10"><img src="img/logos/frostbite-logo.png" class="restaurant-logo"> Frostbite Restaurant</h3>
+                <span class="col-2 see-more"><a href="restaurant.html">See more <i class="bi bi-arrow-bar-right"></i></a></span>
+            </div>
+
+            <div class="meal-wrapper">
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/drinks/hollandia drink.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Hollandia Yoghurt</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/jollof-rice with salad.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice with salad</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/fried-rice chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Fried rice with chicken and plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/eba and egusi.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Eba and egusi with ponmo</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/rice and stew.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Rice and stew with plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="meals">
+                    <a href="#">
+                        <img src="img/foods/rice and chicken.jfif">
+                        <div class="price-details my-2">
+                            <p class="item-name">Jollof rice and plantain</p>
+                            <div class="price-box">
+                                <p class="price">N 1,000</p>
+                                <i class="bi bi-cart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Frostbite Restaurant Meal End-->
+    
+    <!-- Email Subscriber -->
+    <div class="subscriber py-5">
+        <div class="container box">
+            <h3>Hear from us</h3>
+            <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email Address"required>
+                <span><i class="bi bi-envelope"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- Email Subscriber End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row px-5 pt-5 pb-3">
+                <div class="col-3">
+                    <h3><img src="" class="restaurant-logo"> Chop Chop</h3>
+                    <div class="socials mt-3">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-links">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact a restaurant</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-links">
+                    <h5>Help</h5>
+                    <ul>
+                        <li><a href="#">Sell on Chop Chop</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="find-store">
+                        <h4 class="text-danger"><i class="bi bi-geo-alt"></i> Restaurant Locator</i></h4>
+                        <p>Find a restaurant near you</p>
+                        <button class="btn btn-danger">Find a Restaurant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <div class="footer-bottom text-center">
+            <p class="pb-3">Copyright &copy; <strong>CHOP CHOP</strong>, 2022</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

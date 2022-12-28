@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chop Chop</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap-icons/bootstrap-icons.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div> -->
+    <!-- Spinner End -->
+
+    <!-- Top Navbar -->
+    <div class="container-fluid top-navbar py-2 px-4">
+        <div class="row">
+            <div class="col-4">
+                <a href="register-restaurant.html"><i class="bi bi-emoji-wink"></i> Register your restaurant with chop chop</a>
+            </div>
+            <div class="col-6">
+            </div>
+            <div class="col-2">
+                <div class="nav-item dropdown top-navbar-restaurant">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Restaurants</a>
+                    <div class="dropdown-menu tnbr-dropdown shadow-sm m-0">
+                        <a href="restaurant.html" class="dropdown-item aa"><img src="img/logos/awesome-logo.png"> Awesome</a>
+                        <a href="#" class="dropdown-item aa"><img src="img/logos/simple-logo.png"> Simple</a>
+                        <a href="#" class="dropdown-item aa"><img src="img/logos/frostbite-logo.png"> Frostbite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Navbar ends -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-3 px-lg-4">
+        <div>
+           <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h2 class="m-0 text-primary">
+                    <img class="img-fluid me-2" src="" alt="" style="width: 45px;"> Chop Chop
+                </h2>
+            </a> 
+        </div>
+        
+        <div class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="search" name="search" placeholder="Search for foods, snacks and drinks">
+        </div>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Help</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="#" class="dropdown-item">Returns & Order</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="#" class="dropdown-item"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link">
+                    <i class="bi bi-person"></i>
+                </a>
+                <a href="#" class="nav-item nav-link navbar-cart">
+                    <i class="bi bi-cart3"></i>
+                    <small class="cart-count">12</small>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Bottom Navbar -->
+    <div class="bottom-navbar px-2 py-2">
+        <ul>
+            <li>
+                <a href="index.html">Home <i class="bi bi-house"></i></a>
+            </li>
+            <li>
+                <a href="#">Back</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Bottom Navbar End -->
+
+    <!-- product Section -->
+    <section class="product-wrapper py-5">
+        <div class="container prod-inn p-5">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-6 item-image">
+                    <img src="img/foods/jollof-rice with salad - Copy.jfif">
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 px-4">
+                    <small class="restaurant-name">Awesome Restaurant</small>
+                    <p class="ratings">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </p>
+                    <h5 class="item-name">Jollof Rice with Salad</h5>
+                    <h3 class="price my-2">N 1,500</h3>
+                    <p class="vat-info">VAT included (where applicable)</p>
+
+                    <div class="quant-btn mb-3">
+                        <button>-</button><input type="text" name="quantity" value="1" disabled><button>+</button>  
+                    </div>
+                    <!-- Action Button -->
+                    <div class="action-btn">
+                        <button type="submit" class="btn btn-primary">Buy Now</button>
+                        <a href="cart.html" class="add-to-cart">Add to Cart <i class="bi bi-cart4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End-->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row px-5 pt-5 pb-3">
+                <div class="col-3">
+                    <h3><img src="" class="restaurant-logo"> Chop Chop</h3>
+                    <div class="socials mt-3">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-links">
+                    <h5>Explore</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact a restaurant</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 footer-links">
+                    <h5>Help</h5>
+                    <ul>
+                        <li><a href="#">Sell on Chop Chop</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="find-store">
+                        <h4 class="text-danger"><i class="bi bi-geo-alt"></i> Restaurant Locator</i></h4>
+                        <p>Find a restaurant near you</p>
+                        <button class="btn btn-danger">Find a Restaurant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <div class="footer-bottom text-center">
+            <p class="pb-3">Copyright &copy; <strong>CHOP CHOP</strong>, 2022</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
